@@ -19,4 +19,11 @@ form {
 
 .form-group{
     margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+#sports{
+  padding: 5px 10px 5px 5px;
+  border-radius: 5px;
+  color: rgb(48, 45, 45);
 }
