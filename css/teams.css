@@ -1,0 +1,34 @@
+body {
+  background: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: rgb(68, 68, 68);
+}
+
+
+.accordion{
+  position: relative;
+  top: 200px;
+  text-align: center;
+  margin: 0 200px;
+}
+
+.card-body ul li a{
+  display: block;
+  border: rgb(216, 208, 208) solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.card{
+  background-color: rgba(90, 93, 93, 0.876);
+}
+
+.card .card-header button{
+  color: #fff;
+}

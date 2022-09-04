@@ -1,0 +1,22 @@
+body {
+  background: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: rgb(68, 68, 68);
+}
+
+form {
+    background: rgba(88, 85, 85, 0.639);
+    position: relative;
+    top: 100px;
+    margin: auto 100px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin: 20px 0;
+}

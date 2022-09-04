@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+a, a:hover, a:active, a:focus{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(59, 65, 64);
+}
+
+#page-logo a{
+    padding: 0 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    user-select: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+header ul li{
+    margin-left: 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    user-select: none;
+}
+
+nav a:hover{
+    background-color: rgb(189, 189, 189);
+    transition: all 0.4s ease; 
+    -webkit-transition: all 0.4s ease;
+}
+
+
+footer{
+    background: linear-gradient(70deg, rgb(52, 51, 51), rgb(36, 43, 43));
+    padding: 10px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    width: 30px;
+    height: 30px;
+    margin: 0 50px;
+}
+
+footer img{
+    width: 100%;
+    height: 100%;
+}

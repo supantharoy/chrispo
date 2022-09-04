@@ -1,0 +1,29 @@
+body {
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: rgb(68, 68, 68);
+}
+
+header {
+  position: static;
+}
+
+main {
+  margin: 100px 250px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  zoom: 95%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body h5{
+  margin-bottom: 20px;
+}
